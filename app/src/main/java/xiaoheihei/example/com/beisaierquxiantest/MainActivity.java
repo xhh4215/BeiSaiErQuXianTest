@@ -5,10 +5,14 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/****
+ * 贝塞尔曲线自定义view的学习
+ */
 public class MainActivity extends AppCompatActivity {
-    Button button ;
+    Button button;
     private MyPaintView myview;
     private MyView myView;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -24,5 +28,5 @@ public class MainActivity extends AppCompatActivity {
 //              myview.reset();
 //            }
 //        });
-   }
+    }
 }
